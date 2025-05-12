@@ -1,0 +1,18 @@
+MovieRevenueForecasting/
+├── data/
+│   ├── tmdb_dataset.csv
+│   ├── imdb_dataset.csv
+├── src/
+│   ├── utils/
+│   │   └── DataPreprocessor.java
+│   ├── models/
+│   │   ├── LinearRegressionModel.java
+│   │   ├── CARTModel.java
+│   │   ├── KNNModel.java
+│   │   └── ANNModel.java
+│   ├── metrics/
+│   │   └── EvaluationMetrics.java
+│   └── Main.java
+├── README.md
+├── pom.xml (if using Maven)
+└── .gitignore
